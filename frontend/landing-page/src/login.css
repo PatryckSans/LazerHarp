@@ -1,0 +1,35 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  label {
+    width: 80px;
+    text-align: right;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 200px;
+  }
+
+  .login-button {
+    display: block;
+    margin: 0 auto;
+  }
