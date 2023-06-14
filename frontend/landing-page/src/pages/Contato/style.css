@@ -1,0 +1,33 @@
+contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+
+contato h1 {
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+contato .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+contato .item {
+  background-color: #1f2637;
+  padding: 20px;
+  border-radius: 10px;
+}

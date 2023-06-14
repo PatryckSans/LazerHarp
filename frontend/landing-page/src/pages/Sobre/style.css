@@ -1,0 +1,44 @@
+about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+about img {
+  width: 100%;
+  opacity: 60%;
+  margin-bottom: 20vh;
+}
+
+about h1 {
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+about p {
+  justify-content: center;
+  font-size: 25px;
+  width: 70%;
+  margin-bottom: 30vh;
+
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}

@@ -1,0 +1,55 @@
+header {
+  width: 100;
+  height: 100px;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  font-family: "Courier New", monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+header h2 {
+  font-size: 40px;
+}
+
+header a {
+  font-family: "Courier New", monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+header a:hover {
+  color: #58cfd7;
+}
+
+header a + a {
+  margin-left: 10px;
+}
+
+.item-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 40px;
+
+  height: 24px;
+  left: 659px;
+  top: 42px;
+}
